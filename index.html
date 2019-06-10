@@ -1,0 +1,133 @@
+# Caroline-MS.github.io
+Digital Portfolio, 8th Grade
+
+<!DOCTYPE html>
+<html lang="en-US">
+        <head>
+            <meta charset="utf-8">
+        <title>Tech Portfolio: Caroline Schmidt</title>
+    </head>
+    <style>
+        body {background-color:whitesmoke;}
+        img {
+            width:400px;
+            height:300px;
+            margin:10px;
+            border:lavender;
+            border-width:10px;
+        }
+        h1 {
+            font-family:sans-serif;
+            font-size:50px;
+            background-color:cadetblue;
+            color:white;
+            margin:10px;}
+        h2{
+            font-family:sans-serif;
+            font-size:30px;
+            background-color:rgb(255, 180, 180);
+            margin:10px;
+        }
+        a {font-size:20px;
+        color:cadetblue;
+        }
+        p {
+            font-family:sans-serif;
+            font-size:20px;
+            margin:10px;
+        }
+        .captions {font-size:15;
+            border-top-style:solid;
+            border-top-width:3px;
+            border-top-color:black;
+            border-bottom-style:solid;
+            border-bottom-width:3px;
+            border-bottom-color:black;
+            color:cadetblue;
+            text-overflow: ellipsis;
+            text-align: right;
+        }
+        .tallimage {width:400px;
+            height:500px;
+        }
+        .vexcode {
+        background-color:beige;
+        font-size:10;
+        font-family:monospace;
+        color:darkblue;
+        }
+    </style>
+    <body>
+                <h1>Caroline Schmidt Eighth Grade Technology Portfolio</h1>    
+        <hr>
+        <hr>
+        <hr>
+        <br>
+<h2>WhiteBox Learning Project</h2>
+        <hr>
+        <hr>
+        
+        <p>We learned about Prosthetics on WhiteBox Learning. We studied arm mechanics, angles and strength, and gravity. Then, we tested different virtual arm designs with the goal of hitting a target. Following the friendly competition, we built our own prosthetic models and launched ping-pong balls. </p>
+        <img src="Images/Screen%20Shot%202019-06-06%20at%202.28.44%20PM.png">
+        <p class="captions">This is a picture of my virtual test arm on WhiteBox Learning.</p>
+        <img src="Images/IMG_1354.JPG">
+        <p class="captions"> This is the base of an arm drying. Later a forearm and rubberbands will be added to make it an arm.</p>
+
+<br>
+                <a target="_blank" href="https://www.whiteboxlearning.com/applications/prosthetics"> WhiteBox Learning Prosthetics Page </a>
+        <h2>3D Modeling and Printing Projects</h2>
+<hr>
+        <hr>
+        
+        <p>We learned how to use SketchUp by following tutorials. We practiced our 3D modeling in SketchUp and proceded to make attatchments for a prosthetic arm. My classmate Scarlett and I used a twist and lock system to make a general attatchment rig for the hand, which our other classmates made attatchments for. I 3D printed a drumstick for my attatchment, as well as a sling-shot ring.</p>
+ <br>
+        <img src="Images/IMG_1949.JPG">
+        <p class="captions">Above, Scarlett is holding the prosthetic hand with our attatchment on it, and I am designing my attatchment on the computer.</p>
+                <img src="Images/IMG_1662.JPG">
+        <p class="captions">This is the prosthetic hand our attatchments were made for.</p>
+        <br>
+        <a target="_blank" href="https://www.sketchup.com/try-sketchup">Sketchup Home Page</a>
+
+                <br>
+        
+        <h2>Vex Robotics Project</h2>
+        <hr>
+        <hr>
+
+        <p>In groups, we assembled Vex Robots with wheels, an arm, a claw, and a limitswitch. We learned how to code the robots using C++. We programmed them to respond to a joystick and to home using the 8U button. We constructed the 8ft by 8ft arena and played Swept Away. Two robots competed to get the balls to the other side of the field. I controlled the robot for my team.</p>
+        <br>
+        <p class="vexcode">if(vexRT[Btn8u]==1) 
+            <br>{
+            <br>motor[port7] = -60; 
+            <br>wait1Msec(1000);<br>motor[port7] = 0;<br>motor[rightMotor] = -60;
+            <br>motor[leftmotor] = 60;<br>wait1Msec(1500)
+            <br>}<br>while(SensorValue(limitswitch) == 1)
+            <br>{
+            <br>motor[rightmotor] = 60;
+            <br>motor[leftmotor] = 60;
+            <br>}
+            <br><br>if(SensorValue(limitswetch) == 0)
+            <br>{
+            <br>motor[rightmotor] = -60;
+            <br>motor[leftmotor] = -60;
+            <br>wit1Msec(1000);
+            <br><br>motor[rightmotor] = 60;
+            <br>motor[leftmotor] = 60;
+            <br>wait1Msec(1500);
+            <br><br>while(SensorValue(limitswitch) == 1)
+        </p>
+        <p class="captions">This is a section of my vex code. It is a portion of the code that uses the 8 up button to have the robot "home."</p>
+                <img src="Images/IMG_2132.JPG">
+        <img src="images/IMG_2309.JPG">
+        <p class="captions">Above, I am assembling the Vex Robot with my group. On the right, I am coding the robot with my competition group.</p>
+        
+        <br>
+        <h2>Website Design Project</h2>
+        <hr>
+        <hr>
+        <p>We learned HTML and CSS to code our websites. HTML is the framework for the website, and CSS adds the design and flare. I used Brackets to code my website, which you are on right now!</p>
+        <img class="tallimage" src="Images/Screen%20Shot%202019-06-06%20at%202.22.20%20PM.png">
+<p class="captions">This is a section of the code that made the website you are currently on.</p>
+
+    </body>
+</html>
